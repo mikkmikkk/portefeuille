@@ -9,12 +9,13 @@ import { useNavigate } from 'react-router-dom';
 
 
 function home(){
-    const navigate = useNavigate();
+  
+  const navigate = useNavigate();
 
   const handleHomeClick = () => {
     console.log('Home button clicked');
     // Navigate to the Home page
-    navigate('/home');
+    navigate('/');
   };
 
   const handleAboutClick = () => {

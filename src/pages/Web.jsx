@@ -19,7 +19,7 @@ function Web() {
   const handleHomeClick = () => {
     console.log('Home button clicked');
     // Navigate to the Home page
-    navigate('/home');
+    navigate('/');
   };
 
   const handleAboutClick = () => {
